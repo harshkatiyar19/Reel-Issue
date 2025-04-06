@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tl2"
+    android:background="@color/white"
+    android:columnCount="3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:weightSum="3"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvReelNo"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_weight="1.2"
+            android:textAlignment="center"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvBarcode"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_weight="1.4"
+            android:textAlignment="center"
+            />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tvDelete"
+            android:background="@color/white"
+            android:layout_weight="0.4"
+            android:layout_column="1"
+            android:textAlignment="center"
+            />
+    </TableRow>
+
+</TableLayout>

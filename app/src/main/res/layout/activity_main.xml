@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl1"
+    android:background="@color/white"
+    android:layout_marginTop="20dp"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tw"
+        tools:ignore="MissingConstraints"
+        >
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@color/white"
+            app:title="Login"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:background="@color/purple_700"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/tvm0_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/welcome_you"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/tw"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+         />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+
+        android:textColor="@color/purple_700"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        app:cornerRadius="0dp"
+        app:strokeWidth="0dp"
+        app:backgroundTint="@android:color/transparent"
+        app:elevation="0dp"
+
+        app:layout_constraintTop_toBottomOf="@id/tvm0_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRegister"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textColor="@color/purple_700"
+        app:layout_constraintTop_toBottomOf="@id/tvm0_1"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:elevation="0dp"
+        android:backgroundTintMode="@android:color/transparent"
+        app:cornerRadius="0dp"
+        app:strokeWidth="0dp"
+        app:backgroundTint="@android:color/transparent"
+
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        />
+        <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fl"
+            app:layout_constraintTop_toBottomOf="@id/btnRegister"
+            />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

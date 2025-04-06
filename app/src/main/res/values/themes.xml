@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Theme.Login_project" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+<!--    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">-->
+<!--        <item name="boxBackgroundColor">#80FFFFFF</item>-->
+<!--        <item name="boxCornerRadiusTopStart">16dp</item>-->
+<!--        <item name="boxCornerRadiusTopEnd">16dp</item>-->
+<!--        <item name="boxCornerRadiusBottomStart">16dp</item>-->
+<!--        <item name="boxCornerRadiusBottomEnd">16dp</item>-->
+<!--        <item name="boxStrokeColor">@color/your_outline_color</item>-->
+<!--        <item name="boxStrokeWidth">2dp</item>-->
+<!--        <item name="hintTextColor">@color/your_hint_color</item>-->
+<!--        <item name="android:textColorHint">@color/your_hint_color</item>-->
+<!--        <item name="android:textColor">@color/your_text_color</item>-->
+<!--        <item name="android:elevation">4dp</item>-->
+<!--    </style>-->
+
+
+
+
+
+</resources>

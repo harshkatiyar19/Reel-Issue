@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Reel Issue</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Brand_logo">brand logo</string>
+    <string name="skip">Skip</string>
+    <string name="pg_Indicator">page indicator</string>
+    <string name="next">Next</string>
+    <string name="google_Login">google login</string>
+    <string name="fb_Login">facebook login</string>
+    <string name="back">Back</string>
+    <string name="login">Login</string>
+    <string name="welcome_you">Welcome you!</string>
+    <string name="register">Register</string>
+    <string name="alternative_login">Or login with social media.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="existing_acc">Already have an account?</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="ServerUrl">http://192.168.101.14/login_project/</string>
+    <string name="to_warehouse">To Warehouse</string>
+    <string name="from_warehouse">From Warehouse</string>
+    <string name="divison">Divison</string>
+    <string name="newsprint_reel_issue">Newsprint Reel Issue</string>
+
+
+</resources>
